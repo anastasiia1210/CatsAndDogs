@@ -1,0 +1,28 @@
+# For more information about this configuration visit
+# https://docs.fastlane.tools/actions/gym/#gymfile
+
+# In general, you can use the options available
+# fastlane gym --help
+
+# Remove the # in front of the line to enable the option
+
+scheme("CatsAndDogs")
+
+sdk("iphoneos17.5")
+clean(true)
+
+output_directory("./output")
+output_name("CatsAndDogs")
+
+export_options ({
+method: "development" ,
+# manifest: {
+# appURL: "https://google.com"
+# },
+thinning: "<thin-for-all-variants>",
+provisioningProfiles: {
+      "ua.edu.ukma.apple-env.lysa.CatsAndDogs" => "62c9acc3-4eb0-47dd-9a71-b7090a59ea36"
+    },
+signingStyle: "manual",
+compileBitcode: false
+})

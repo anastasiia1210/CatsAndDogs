@@ -1,0 +1,114 @@
+2024-06-04 17:01:20 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x10f46ebf0; archive(resolved)="<IDEArchive: 0x60000306c780>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodDevelopmentSigned: 0x60000163c0a0>", team(resolved)="<IDEProvisioningBasicTeam: 0x6000015f7a60; teamID='D85QWSUNYA', teamName='(null)'>">
+	Chain (14, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x10f46ebf0; archive = "<IDEArchive: 0x60000306c780>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000163c0a0>", team="<IDEProvisioningBasicTeam: 0x6000015f7a60; teamID='D85QWSUNYA', teamName='(null)'>">
+	<IDEDistributionProcessingPipelineContext: 0x10f46e940; archive = "<IDEArchive: 0x60000306c780>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000163c0a0>", team="<IDEProvisioningBasicTeam: 0x6000015f7a60; teamID='D85QWSUNYA', teamName='(null)'>">
+	<IDEDistributionContext: 0x10f46e380; archive = "<IDEArchive: 0x60000306c780>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000163c0a0>", team="<IDEProvisioningBasicTeam: 0x6000015f7a60; teamID='D85QWSUNYA', teamName='(null)'>">
+	<IDEDistributionContext: 0x1336b8ee0; archive = "<IDEArchive: 0x60000306c780>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000163c0a0>", team="<IDEProvisioningBasicTeam: 0x6000015f7a60; teamID='D85QWSUNYA', teamName='(null)'>">
+	<IDEDistributionContext: 0x1336b8800; archive = "<IDEArchive: 0x60000306c780>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000163c0a0>", team="<IDEProvisioningBasicTeam: 0x6000015f7a60; teamID='D85QWSUNYA', teamName='(null)'>">
+	<IDEDistributionContext: 0x1336b4ef0; archive = "<IDEArchive: 0x60000306c780>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000163c0a0>", team="<IDEProvisioningBasicTeam: 0x6000015f7a60; teamID='D85QWSUNYA', teamName='(null)'>">
+	<IDEDistributionContext: 0x1336b9280; archive = "<IDEArchive: 0x60000306c780>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000163c0a0>", team="<IDEProvisioningBasicTeam: 0x6000015f7a60; teamID='D85QWSUNYA', teamName='(null)'>">
+	<IDEDistributionContext: 0x1336ae210; archive = "<IDEArchive: 0x60000306c780>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000163c0a0>", team="<IDEProvisioningBasicTeam: 0x6000015f7a60; teamID='D85QWSUNYA', teamName='(null)'>">
+	<IDEDistributionContext: 0x135020ab0; archive = "<IDEArchive: 0x60000306c780>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000163c0a0>", team="<IDEProvisioningBasicTeam: 0x6000015f7a60; teamID='D85QWSUNYA', teamName='(null)'>">
+	<IDEDistributionContext: 0x1336b6e00; archive = "<IDEArchive: 0x60000306c780>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000163c0a0>", team="(null)">
+	<IDEDistributionContext: 0x1336b6bd0; archive = "<IDEArchive: 0x60000306c780>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000163c0a0>", team="(null)">
+	<IDEDistributionContext: 0x1336b6640; archive = "<IDEArchive: 0x60000306c780>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000163c0a0>", team="(null)">
+	<IDEDistributionContext: 0x10f6056c0; archive = "<IDEArchive: 0x60000306c780>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000163c0a0>", team="(null)">
+	<IDEDistributionContext: 0x135005420; archive = "<IDEArchive: 0x60000306c780>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x10f46ebf0>
+2024-06-04 17:01:20 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2024-06-04 17:01:20 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2024-06-04 17:01:20 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/lam/naukma/Apple/CatsAndDogs/ARCHIVES/v1.0.0.xcarchive/Products/Applications/CatsAndDogs.app' '/var/folders/y7/syns50rx725f68rcdm9d9p0w0000gn/T/XcodeDistPipeline.~~~P4jt37/Root/Payload/CatsAndDogs.app'
+2024-06-04 17:01:20 +0000  >>> Copying /Users/lam/naukma/Apple/CatsAndDogs/ARCHIVES/v1.0.0.xcarchive/Products/Applications/CatsAndDogs.app 
+2024-06-04 17:01:20 +0000  copying file ./_CodeSignature/CodeResources ... 
+2024-06-04 17:01:20 +0000  2111 bytes for ./_CodeSignature/CodeResources
+2024-06-04 17:01:20 +0000  copying file ./CatsAndDogs ... 
+2024-06-04 17:01:20 +0000  214112 bytes for ./CatsAndDogs
+2024-06-04 17:01:20 +0000  copying file ./embedded.mobileprovision ... 
+2024-06-04 17:01:20 +0000  90703 bytes for ./embedded.mobileprovision
+2024-06-04 17:01:20 +0000  copying file ./Info.plist ... 
+2024-06-04 17:01:20 +0000  1323 bytes for ./Info.plist
+2024-06-04 17:01:20 +0000  copying file ./PkgInfo ... 
+2024-06-04 17:01:20 +0000  8 bytes for ./PkgInfo
+2024-06-04 17:01:20 +0000 [MT] /usr/bin/ditto exited with 0
+2024-06-04 17:01:20 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2024-06-04 17:01:20 +0000 [MT] Processing step: IDEDistributionInfoPlistStep
+2024-06-04 17:01:20 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2024-06-04 17:01:20 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2024-06-04 17:01:20 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2024-06-04 17:01:20 +0000 [MT] Processing step: IDEDistributionCompileBitcodeStep
+2024-06-04 17:01:20 +0000 [MT] Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2024-06-04 17:01:20 +0000 [MT] Processing step: IDEDistributionCodeSlimmingStep
+2024-06-04 17:01:20 +0000 [MT] Processing step: IDEDistributionCopyBCSymbolMapsStep
+2024-06-04 17:01:20 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2024-06-04 17:01:20 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2024-06-04 17:01:20 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2024-06-04 17:01:20 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2024-06-04 17:01:20 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2024-06-04 17:01:20 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2024-06-04 17:01:20 +0000 [MT] Item /Users/lam/naukma/Apple/CatsAndDogs/ARCHIVES/v1.0.0.xcarchive/Products/Applications/CatsAndDogs.app doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2024-06-04 17:01:20 +0000 [MT] Archs to thin for item /Users/lam/naukma/Apple/CatsAndDogs/ARCHIVES/v1.0.0.xcarchive/Products/Applications/CatsAndDogs.app are ["arm64e"]
+2024-06-04 17:01:20 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/y7/syns50rx725f68rcdm9d9p0w0000gn/T/XcodeDistPipeline.~~~P4jt37/Root/Payload/CatsAndDogs.app/CatsAndDogs' '-verify_arch' 'arm64e'
+2024-06-04 17:01:20 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2024-06-04 17:01:20 +0000 [MT] Skipping architecture thinning for item "CatsAndDogs" because arch "arm64e" wasn't found
+2024-06-04 17:01:20 +0000 [MT] Processing step: IDEDistributionODRStep
+2024-06-04 17:01:20 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2024-06-04 17:01:20 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2024-06-04 17:01:20 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2024-06-04 17:01:20 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000030c2dc0; bundleID='ua.edu.ukma.apple-env.lysa.CatsAndDogs.CatsAndDogs', path='<DVTFilePath:0x600003a1aa00:'/Users/lam/naukma/Apple/CatsAndDogs/ARCHIVES/v1.0.0.xcarchive/Products/Applications/CatsAndDogs.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003467a20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000212c9c0; name='Apple Development: Анастасія Лиса (CDFK9TBXDC)', hash='FF9C697BD0FFF30A0E5C78F3C8857A122C08AFDA', serialNumber='55BC6D4DB537211F422F586257B858C6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-06-03 20:47:35 +0000''>', entitlements='{
+    "application-identifier" = "D85QWSUNYA.ua.edu.ukma.apple-env.lysa.CatsAndDogs.CatsAndDogs";
+    "com.apple.developer.team-identifier" = D85QWSUNYA;
+    "get-task-allow" = 1;
+}', teamID='D85QWSUNYA', identifier='ua.edu.ukma.apple-env.lysa.CatsAndDogs.CatsAndDogs', executablePath='<DVTFilePath:0x600003a62680:'/Users/lam/naukma/Apple/CatsAndDogs/ARCHIVES/v1.0.0.xcarchive/Products/Applications/CatsAndDogs.app/CatsAndDogs'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "D85QWSUNYA.ua.edu.ukma.apple-env.lysa.CatsAndDogs.CatsAndDogs";
+    "com.apple.developer.team-identifier" = D85QWSUNYA;
+    "get-task-allow" = 1;
+}
+2024-06-04 17:01:20 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2024-06-04 17:01:20 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000030c2dc0; bundleID='ua.edu.ukma.apple-env.lysa.CatsAndDogs.CatsAndDogs', path='<DVTFilePath:0x600003a1aa00:'/Users/lam/naukma/Apple/CatsAndDogs/ARCHIVES/v1.0.0.xcarchive/Products/Applications/CatsAndDogs.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003467a20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002135bc0; name='Apple Development: Анастасія Лиса (CDFK9TBXDC)', hash='FF9C697BD0FFF30A0E5C78F3C8857A122C08AFDA', serialNumber='55BC6D4DB537211F422F586257B858C6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-06-03 20:47:35 +0000''>', entitlements='{
+    "application-identifier" = "D85QWSUNYA.ua.edu.ukma.apple-env.lysa.CatsAndDogs.CatsAndDogs";
+    "com.apple.developer.team-identifier" = D85QWSUNYA;
+    "get-task-allow" = 1;
+}', teamID='D85QWSUNYA', identifier='ua.edu.ukma.apple-env.lysa.CatsAndDogs.CatsAndDogs', executablePath='<DVTFilePath:0x600003a62680:'/Users/lam/naukma/Apple/CatsAndDogs/ARCHIVES/v1.0.0.xcarchive/Products/Applications/CatsAndDogs.app/CatsAndDogs'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "D85QWSUNYA.ua.edu.ukma.apple-env.lysa.CatsAndDogs.CatsAndDogs";
+    "com.apple.developer.team-identifier" = D85QWSUNYA;
+    "get-task-allow" = 1;
+}
+2024-06-04 17:01:20 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000030c2dc0; bundleID='ua.edu.ukma.apple-env.lysa.CatsAndDogs.CatsAndDogs', path='<DVTFilePath:0x600003a1aa00:'/Users/lam/naukma/Apple/CatsAndDogs/ARCHIVES/v1.0.0.xcarchive/Products/Applications/CatsAndDogs.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003467a20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002134900; name='Apple Development: Анастасія Лиса (CDFK9TBXDC)', hash='FF9C697BD0FFF30A0E5C78F3C8857A122C08AFDA', serialNumber='55BC6D4DB537211F422F586257B858C6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-06-03 20:47:35 +0000''>', entitlements='{
+    "application-identifier" = "D85QWSUNYA.ua.edu.ukma.apple-env.lysa.CatsAndDogs.CatsAndDogs";
+    "com.apple.developer.team-identifier" = D85QWSUNYA;
+    "get-task-allow" = 1;
+}', teamID='D85QWSUNYA', identifier='ua.edu.ukma.apple-env.lysa.CatsAndDogs.CatsAndDogs', executablePath='<DVTFilePath:0x600003a62680:'/Users/lam/naukma/Apple/CatsAndDogs/ARCHIVES/v1.0.0.xcarchive/Products/Applications/CatsAndDogs.app/CatsAndDogs'>', hardenedRuntime='0'>'> to: /var/folders/y7/syns50rx725f68rcdm9d9p0w0000gn/T/XcodeDistPipeline.~~~P4jt37/entitlements~~~dKjiwV
+2024-06-04 17:01:20 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' 'FF9C697BD0FFF30A0E5C78F3C8857A122C08AFDA' '--entitlements' '/var/folders/y7/syns50rx725f68rcdm9d9p0w0000gn/T/XcodeDistPipeline.~~~P4jt37/entitlements~~~dKjiwV' '--generate-entitlement-der' '--strip-disallowed-xattrs' '--preserve-metadata=identifier,flags,runtime' '/var/folders/y7/syns50rx725f68rcdm9d9p0w0000gn/T/XcodeDistPipeline.~~~P4jt37/Root/Payload/CatsAndDogs.app'
+2024-06-04 17:01:20 +0000  /var/folders/y7/syns50rx725f68rcdm9d9p0w0000gn/T/XcodeDistPipeline.~~~P4jt37/Root/Payload/CatsAndDogs.app: replacing existing signature
+2024-06-04 17:01:29 +0000  /var/folders/y7/syns50rx725f68rcdm9d9p0w0000gn/T/XcodeDistPipeline.~~~P4jt37/Root/Payload/CatsAndDogs.app: signed app bundle with Mach-O thin (arm64) [ua.edu.ukma.apple-env.lysa.CatsAndDogs.CatsAndDogs]
+2024-06-04 17:01:29 +0000 [MT] /usr/bin/codesign exited with 0
+2024-06-04 17:01:29 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2024-06-04 17:01:29 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2024-06-04 17:01:29 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2024-06-04 17:01:29 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/y7/syns50rx725f68rcdm9d9p0w0000gn/T/XcodeDistPipeline.~~~P4jt37/Root' '/var/folders/y7/syns50rx725f68rcdm9d9p0w0000gn/T/XcodeDistPipeline.~~~P4jt37/Packages/CatsAndDogs.ipa'
+2024-06-04 17:01:29 +0000  >>> Copying /var/folders/y7/syns50rx725f68rcdm9d9p0w0000gn/T/XcodeDistPipeline.~~~P4jt37/Root 
+2024-06-04 17:01:29 +0000  copying file ./Payload/CatsAndDogs.app/_CodeSignature/CodeResources ... 
+2024-06-04 17:01:29 +0000  2111 bytes for ./Payload/CatsAndDogs.app/_CodeSignature/CodeResources
+2024-06-04 17:01:29 +0000  copying file ./Payload/CatsAndDogs.app/CatsAndDogs ... 
+2024-06-04 17:01:29 +0000  214112 bytes for ./Payload/CatsAndDogs.app/CatsAndDogs
+2024-06-04 17:01:29 +0000  copying file ./Payload/CatsAndDogs.app/embedded.mobileprovision ... 
+2024-06-04 17:01:29 +0000  90703 bytes for ./Payload/CatsAndDogs.app/embedded.mobileprovision
+2024-06-04 17:01:29 +0000  copying file ./Payload/CatsAndDogs.app/Info.plist ... 
+2024-06-04 17:01:29 +0000  1323 bytes for ./Payload/CatsAndDogs.app/Info.plist
+copying file ./Payload/CatsAndDogs.app/PkgInfo ... 
+2024-06-04 17:01:29 +0000  8 bytes for ./Payload/CatsAndDogs.app/PkgInfo
+2024-06-04 17:01:29 +0000 [MT] /usr/bin/ditto exited with 0
+2024-06-04 17:01:29 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2024-06-04 17:01:29 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2024-06-04 17:01:29 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
+2024-06-04 17:01:30 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600003b0ff00:'/var/folders/y7/syns50rx725f68rcdm9d9p0w0000gn/T/XcodeDistPipeline.~~~P4jt37/Root/Payload/CatsAndDogs.app'>
+2024-06-04 17:01:30 +0000 [MT] Processing step: IDEDistributionCreateManifestStep

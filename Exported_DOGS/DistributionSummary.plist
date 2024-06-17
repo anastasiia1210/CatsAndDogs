@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CatsAndDogs.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>1</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>FF9C697BD0FFF30A0E5C78F3C8857A122C08AFDA</string>
+				<key>dateExpires</key>
+				<string>03.06.2025</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>D85QWSUNYA.ua.edu.ukma.apple-env.lysa.CatsAndDogs.CatsAndDogs</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>D85QWSUNYA</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>CatsAndDogs.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>a1ad26aa-fd80-4e0f-8052-cd18ef9fc030</string>
+				<key>dateExpires</key>
+				<string>03.06.2025</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: *</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>D85QWSUNYA</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>

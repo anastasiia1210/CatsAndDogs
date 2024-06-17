@@ -1,0 +1,20 @@
+
+# Snapfile
+devices([
+   "iPhone 13",
+   "iPhone SE (3rd generation)",
+])
+
+languages([
+  "en-US",
+  "de-DE"])
+
+scheme("CatsAndDogsUITests")
+
+output_directory("./screenshots")
+
+override_status_bar(true)
+
+clear_previous_screenshots(true)
+
+
